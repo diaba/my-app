@@ -1,0 +1,90 @@
+{
+  "flights": [
+    {
+      "id": "IND-101",
+      "AircraftName": "Delta Airlines",
+      "fare": 600,
+      "availableSeats": 3,
+      "status": "Running"
+    },
+    {
+      "id": "IND-102",
+      "AircraftName": "JetBlue",
+      "fare": 745,
+      "availableSeats": 20,
+      "status": "Cancelled"
+    },
+    {
+      "id": "IND-103",
+      "AircraftName": "United Airlines",
+      "fare": 865,
+      "availableSeats": 40,
+      "status": "Cancelled"
+    },
+    {
+      "id": "IND-104",
+      "AircraftName": "Virgin America",
+      "fare": 580,
+      "availableSeats": 10,
+      "status": "Cancelled"
+    },
+    {
+      "id": "IND-105",
+      "AircraftName": "Allegiant Air",
+      "fare": 650,
+      "availableSeats": 46,
+      "status": "Running"
+    },
+    {
+      "id": "IND-106",
+      "AircraftName": "Hawaiian Airlines",
+      "fare": 800,
+      "availableSeats": 3,
+      "status": "Running"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 2001,
+      "passengerName": "Markel",
+      "noOfTickets": 10,
+      "totalAmount": 6000,
+      "flightId": "IND-101"
+    },
+    {
+      "id": 2002,
+      "passengerName": "Louis",
+      "noOfTickets": 20,
+      "totalAmount": 7000,
+      "flightId": "IND-101"
+    },
+    {
+      "id": 2003,
+      "passengerName": "Rita",
+      "noOfTickets": 4,
+      "totalAmount": 2320,
+      "flightId": "IND-104"
+    },
+    {
+      "id": 2004,
+      "passengerName": "Lizzy",
+      "noOfTickets": 2,
+      "totalAmount": 1300,
+      "flightId": "IND-105"
+    },
+    {
+      "passengerName": "Shri",
+      "noOfTickets": 1,
+      "flightId": "IND-105",
+      "totalAmount": 650,
+      "id": 2005
+    },
+    {
+      "passengerName": "Abc",
+      "noOfTickets": 1,
+      "flightId": "IND-106",
+      "totalAmount": 800,
+      "id": 2006
+    }
+  ]
+}
